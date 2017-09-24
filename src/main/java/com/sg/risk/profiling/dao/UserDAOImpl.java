@@ -4,8 +4,11 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;
 
+import org.springframework.stereotype.Component;
+
 import com.sg.risk.profiling.domain.User;
 
+@Component
 public class UserDAOImpl implements UserDAO {
 	
 	private Map<Long, User> users;

@@ -3,10 +3,13 @@ package com.sg.risk.profiling.dao;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.sg.risk.profiling.domain.Game;
 import com.sg.risk.profiling.domain.GameData;
 import com.sg.risk.profiling.domain.GameOption;
 
+@Component
 public class CardGameDAO implements GameDAO {
 
 	private long INITIAL_BET = 1000000;

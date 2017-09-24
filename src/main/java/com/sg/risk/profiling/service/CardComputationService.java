@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.sg.risk.profiling.dao.UserDAO;
 import com.sg.risk.profiling.domain.Game;
@@ -14,6 +15,7 @@ import com.sg.risk.profiling.domain.User;
 import com.sg.risk.profiling.domain.UserGameData;
 import com.sg.risk.profiling.domain.UserGameDetail;
 
+@Service
 public class CardComputationService implements ComputationService {
 
 	@Autowired
